@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/subjectDetails"
+        android:icon="@drawable/add"
+        android:title="Add Subject Marks in Detail" />
+
+    <item
+        android:id="@+id/subjectDetailsTotalOnly"
+        android:icon="@drawable/add"
+        android:title="Add Overall Subject's Marks" />
+
+    <item
+        android:id="@+id/semesterDetails"
+        android:icon="@drawable/eye"
+        android:title="See Result By Semester"/>
+
+    <item
+        android:id="@+id/calculateRequiredCGPA"
+        android:icon="@drawable/calculate"
+        android:title="Calculate Required CGPA" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/about"
+        android:title="About" />
+
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="Log Out" />
+
+</menu>

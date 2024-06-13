@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="5dp"
+        android:layout_weight="50"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="12dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp">
+
+            <EditText
+                android:id="@+id/semSubjectName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:background="@android:color/transparent"
+                android:enabled="false"
+                android:gravity="center"
+                android:hint="Subject Name"
+                android:paddingVertical="10dp"
+                android:paddingHorizontal="5dp"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" /> <!-- Divider Line -->
+
+            <EditText
+                android:id="@+id/semSubjectCreditHour"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:background="@android:color/transparent"
+                android:enabled="false"
+                android:gravity="center"
+                android:hint="Credit Hr"
+                android:paddingVertical="10dp"
+                android:paddingHorizontal="5dp"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" /> <!-- Divider Line -->
+
+            <EditText
+                android:id="@+id/semSubjectTotal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:background="@android:color/transparent"
+                android:enabled="false"
+                android:gravity="center"
+                android:hint="TW"
+                android:paddingVertical="10dp"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" /> <!-- Divider Line -->
+
+            <EditText
+                android:id="@+id/semSubjectObtained"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:background="@android:color/transparent"
+                android:enabled="false"
+                android:gravity="center"
+                android:hint="OW"
+                android:paddingVertical="10dp"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" /> <!-- Divider Line -->
+
+
+            <EditText
+                android:id="@+id/semSubjectGrade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:background="@android:color/transparent"
+                android:enabled="false"
+                android:gravity="center"
+                android:hint="Grade"
+                android:paddingVertical="10dp"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" /> <!-- Divider Line -->
+
+            <ImageButton
+                android:id="@+id/delButtonOfSubject"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="10"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/trash" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

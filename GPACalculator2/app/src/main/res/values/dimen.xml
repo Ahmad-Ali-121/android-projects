@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Example dimensions -->
+    <dimen name="when_data">300dp</dimen>
+    <dimen name="no_data">10dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+
+    <dimen name="your_item_height">125sp</dimen>
+    <dimen name="small_item_height">70sp</dimen>
+    <dimen name="s_item_height">80sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+
+    <!-- Add more dimension resources as needed -->
+</resources>

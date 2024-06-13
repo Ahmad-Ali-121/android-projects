@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GPA Calculator</string>
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+    <string name="hello_blank_fragment">Hello Home fragment</string>
+    <string name="web_client_id">671136624898-3buun74fkfonmibodb23pm1q6rvl9ikr.apps.googleusercontent.com</string>
+</resources>

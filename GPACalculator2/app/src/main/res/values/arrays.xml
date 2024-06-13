@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subject_type">
+        <item>Theory</item>
+        <item>Lab</item>
+        <item>Theory + Lab</item>
+    </string-array>
+
+    <string-array name="assessment_type">
+        <item>Select</item>
+        <item>Class-Quiz</item>
+        <item>Class-Assignment</item>
+        <item>Class-Mid-Term</item>
+        <item>Class-Final</item>
+        <item>Class-Viva</item>
+        <item>Class-Presentation</item>
+        <item>Class-Project</item>
+        <item>Project Tasks</item>
+        <item>Poster Exhibition</item>
+        <item>Class-Participation</item>
+        <item>Lab-Quiz</item>
+        <item>Lab-Task</item>
+        <item>Lab-Mid-Term</item>
+        <item>Lab-Final</item>
+        <item>Lab-Viva</item>
+        <item>Lab-Project</item>
+        <item>Lab-Presentation</item>
+        <item>Lab-Participation</item>
+        <item>None</item>
+    </string-array>
+
+</resources>
